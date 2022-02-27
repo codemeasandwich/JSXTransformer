@@ -1,0 +1,17 @@
+{
+    "name": "ssr example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "run-p start:client start:server"
+    },
+    "author": "Brian shannon",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "JSXTransformer": "^1.0.0"
+    }
+}

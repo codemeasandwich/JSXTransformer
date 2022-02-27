@@ -1,0 +1,37 @@
+{
+  "name": "JSXTransformer",
+  "version": "1.0.0",
+  "description": "A basic real-time transform pipeline for JSX -> JavaScript in NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "author": "Brian Shannon (github.com/codemeasandwich)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codemeasandwich/JSXTransformer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codemeasandwich/JSXTransformer/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "node-hook": "^1.0.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "JSXTransformer",
+    "React",
+    "JSX",
+    "NodeJs",
+    "SSR",
+    "Server side rendering"
+  ]
+}
