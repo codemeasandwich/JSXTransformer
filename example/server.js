@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import express from 'express'
 import Elem from './Elem.jsx'
