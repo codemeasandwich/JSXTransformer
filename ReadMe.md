@@ -1,7 +1,7 @@
-# JSXTransformer
+# load-jsx
 ## A real-time transform for JSX ➜ JavaScript in ***NodeJs***
 
-[![npm version](https://badge.fury.io/js/JSXTransformer.svg)](https://www.npmjs.com/package/JSXTransformer) [![npm downloads](https://img.shields.io/npm/dt/JSXTransformer.svg)](http://www.npmtrends.com/JSXTransformer) [![Known Vulnerabilities](https://snyk.io/test/npm/redux-auto/badge.svg)](https://snyk.io/test/npm/JSXTransformer)  [![Buy me a coffee](https://img.shields.io/badge/buy%20me-a%20coffee-orange.svg)](https://www.buymeacoffee.com/codemeasandwich)
+[![npm version](https://badge.fury.io/js/load-jsx.svg)](https://www.npmjs.com/package/load-jsx) [![npm downloads](https://img.shields.io/npm/dt/load-jsx.svg)](http://www.npmtrends.com/load-jsx) [![Known Vulnerabilities](https://snyk.io/test/npm/redux-auto/badge.svg)](https://snyk.io/test/npm/load-jsx)  [![Buy me a coffee](https://img.shields.io/badge/buy%20me-a%20coffee-orange.svg)](https://www.buymeacoffee.com/codemeasandwich)
 
 ---
 
@@ -9,7 +9,7 @@
 Setting up **webpack** and **babel** for a **node project** can be complicated, when maybe all you want is to **render some react elements**.
 
 ### **The Solution**:
-JSXTransformer is a plug-n-play module that will dynamically parse all JSX imports. This will allow you to use JSX markup across your project without needing to worry about build or compile steps
+load-jsx is a plug-n-play module that will dynamically parse all JSX imports. This will allow you to use JSX markup across your project without needing to worry about build or compile steps
 
 ---
 
@@ -19,7 +19,7 @@ JSXTransformer is a plug-n-play module that will dynamically parse all JSX impor
 - plug-and-play with just ONE import
 - Import files(.jsx, .js) using JSX markup within your NodeJs projects
 
-## Bonus  
+## Bonus
 
 - Can insert `Import React from '{react}'` at the top of files that use JSX
 
@@ -27,27 +27,27 @@ JSXTransformer is a plug-n-play module that will dynamically parse all JSX impor
 
 # Install
 
-`yarn add JSXTransformer`
+`yarn add load-jsx`
 **or**
-`npm install --save JSXTransformer`
+`npm install --save load-jsx`
 
 
 
 ### constructor / setup
 
-## ⚠ `JSXTransformer` Should be included before you import files with JSX markup in them.
+## ⚠ `load-jsx` Should be included before you import files with JSX markup in them.
 
 The first step to import the lib
 ``` js
-require('JSXTransformer')
+require('load-jsx')
 ```
 If you want to have you React'ish libarty imported at the top of you JSX, use.
 ``` js
-require('JSXTransformer')('preact')
+require('load-jsx')('preact')
 ```
 this will add "import React from 'preact'" for example
 
-##  You only need to `require('JSXTransformer')` once  on the first  JS file loaded ツ
+##  You only need to `require('load-jsx')` once  on the first  JS file loaded ツ
 
 ---
 
@@ -56,7 +56,7 @@ this will add "import React from 'preact'" for example
 ### index.js
 ``` js
 //Enable JSX
-require("JSXTransformer")("react");
+require("load-jsx")("react");
 
 //Load server
 require("./server");

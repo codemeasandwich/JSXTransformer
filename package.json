@@ -1,7 +1,7 @@
 {
-  "name": "JSXTransformer",
+  "name": "load-jsx",
   "version": "1.0.0",
-  "description": "A basic real-time transform pipeline for JSX -> JavaScript in NodeJs",
+  "description": "A real-time transform pipeline for JSX -> JavaScript in NodeJs",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/index.js"
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codemeasandwich/JSXTransformer.git"
+    "url": "git://github.com/codemeasandwich/load-jsx.git"
   },
   "bugs": {
-    "url": "https://github.com/codemeasandwich/JSXTransformer/issues"
+    "url": "https://github.com/codemeasandwich/load-jsx/issues"
   },
   "dependencies": {
     "@babel/core": "^7.17.5",

@@ -1,5 +1,5 @@
 //Enable JSX
-require("JSXTransformer")("react");
+require("load-jsx")("react");
 
 //Load server
 require("./server");
