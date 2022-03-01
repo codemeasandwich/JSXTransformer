@@ -6,6 +6,7 @@
 ---
 
 ### The Problem:
+#### Setup Server-side Rendering
 Setting up **webpack** and **babel** for a **node project** can be complicated, when maybe all you want is to **render some react elements**.
 
 ### **The Solution**:
@@ -35,7 +36,6 @@ load-jsx is a plug-n-play module that will dynamically parse all JSX imports. Th
 
 ### constructor / setup
 
-## ⚠ `load-jsx` Should be included before you import files with JSX markup in them.
 
 The first step to import the lib
 ``` js
@@ -49,7 +49,9 @@ this will add "import React from 'preact'" for example
 
 ##  You only need to `require('load-jsx')` once  on the first  JS file loaded ツ
 
+
 ---
+
 
 # Example
 
